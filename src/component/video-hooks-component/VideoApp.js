@@ -6,8 +6,8 @@ import useVideos from './customhooks/useVideos'
 
 const VideoApp = () => {
     const [selectedVideo, setSelectedVideo] = useState(null)
-    const [videos, videosSearchFn] = useVideos('Telugu Music')
-    
+    const [videos, videosSearchFn] = useVideos('vevo waiting for love')
+
     useEffect(() => {
         setSelectedVideo(videos[0])
     }, [videos])

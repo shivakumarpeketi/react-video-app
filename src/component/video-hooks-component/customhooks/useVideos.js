@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import Youtube from '../apis/Youtube'
+import Youtube from '../../../apis/Youtube'
 
 // Custom hook to search and fetach videos for given search key
 function useVideos(defaultKey) {

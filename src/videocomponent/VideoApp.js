@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import SearchBar from './SearchBar'
-import Youtube from './apis/Youtube'
+import Youtube from '../apis/Youtube'
 import VideoList from './VideoList'
 import VideoDetail from './VideoDetail'
 
